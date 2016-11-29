@@ -1,0 +1,204 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    margin-left: -30px;
+}
+
+.span {
+    float: left;
+    margin-left: 30px
+}
+
+.span-1 {  width: 70px; }
+.span-2 {  width: 170px; }
+.span-3 {  width: 270px; }
+.span-4 {  width: 370px; }
+.span-5 {  width: 470px; }
+.span-6 {  width: 570px; }
+.span-7 {  width: 670px; }
+.span-8 {  width: 770px; }
+.span-9 {  width: 870px; }
+.span-10 {  width: 970px; }
+.span-11 {  width: 1070px; }
+.span-12 {  width: 1170px; }
+
+.btn-center {
+    margin: auto;
+    width: 50px;
+    padding: 10px;
+}
+.text-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.container-center {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 10px;
+}
+
+.header {
+    padding-top: 30px;
+}
+
+.banner {
+    top: 50px;
+    height: 400px;
+    position: relative;
+    background: url(../images/banner/wallpaperwide.png) no-repeat;
+    background-size: 100% auto;
+}
+
+.title {
+    padding: 70px 0 0;
+}
+
+.main-title {
+    position: relative;
+    padding: 80px 0 0;
+}
+
+img {
+    padding-bottom: 10px;
+}
+
+.featured-content {
+    padding: 30px 0 70px;
+}
+
+.human-photo {
+    float: left;
+    padding-right: 20px;
+    position: absolute;
+}
+
+.photo2 {
+    margin-left: -22px;
+}
+
+.photo4 {
+    margin-left: -24px;
+}
+
+.photo1 {
+    margin-left: -16px;
+}
+
+.people-text {
+    padding-left: 120px;
+}
+
+.row-container {
+    padding-top: 20px;
+}
+
+.footer {
+    height: 500px;
+    background: url(../images/footer/v.png) no-repeat;
+}
+
+.rows {
+    height: 300px;
+}
+
+.subscribe-letter {
+    padding-left: 10px;
+    position: absolute;
+}
+
+.via-email {
+    position: relative;
+    padding-left: 10px;
+}
+
+.footer-row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sign-up {
+    padding: 12px 20px;
+    background: url(../images/footer/subscribe/btn.png) no-repeat;
+    position: absolute;
+}
+
+.sign-up-link {
+    padding-right: 5px;
+}
+
+.subscribe-row {
+    padding-bottom: 20px;
+}
+
+.twitter-row {
+    background: url(../images/footer/twitter/img-bg2.png) no-repeat;
+    padding: 20px 20px 28px;
+}
+
+.social {
+    background: url(../images/footer/social/bg.png) no-repeat;
+    position: absolute;
+    width: 100%;
+    margin-top: 170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.round {
+    background: url(../images/footer/social/Shape-3.jpg) no-repeat;
+
+}
+
+.follow {
+    padding-left: 10px;
+    position: absolute;
+    padding-top: 20px;
+}
+
+.faucibus {
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+
+.fb {
+    padding: 20px 28px;
+}
+
+.ggl {
+    padding: 24px;
+}
+
+.ln {
+    padding: 22px;
+}
+
+.footer-text {
+    padding-top: 170px;
+}
+
+.more-btn {
+    background: url(../images/featured-content/item1/btn.png) no-repeat;
+    padding-top: 10px;
+}
+
+.portfolio-title {
+    padding: 30px 0;
+}
+
+.view-portfolio-btn {
+    background: url(../images/portfolio/content/btn2.png) no-repeat;
+    padding-top: 12px
+}
