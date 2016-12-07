@@ -33,8 +33,12 @@ html, body {
 .btn-center {
     margin: auto;
     width: 50px;
-    padding: 10px;
+    padding: 8px;
 }
+.right-btn {
+    padding-left: 5px;
+}
+
 .text-center {
     display: block;
     margin-left: auto;
@@ -50,82 +54,119 @@ html, body {
 }
 
 .header {
-    padding-top: 30px;
+    height: 90px;
+}
+
+.site-name {
+    padding-top: 35px;
+}
+
+.nav {
+    margin-left: 20px;
+}
+
+.menu-pointer {
+    padding-top: 18px;
+    padding-left: 14px;
+}
+
+.header-menu {
+    padding-top: 12px;
 }
 
 .banner {
-    top: 50px;
-    height: 400px;
+    height: 520px;
     position: relative;
     background: url(../images/banner/wallpaperwide.png) no-repeat;
     background-size: 100% auto;
 }
 
+.banner-main-text {
+    padding-bottom: 14px;
+    padding-right: 30px;
+}
+
+.banner-add-text {
+    padding-right: 28px;
+}
+
 .title {
-    padding: 70px 0 0;
+    padding: 106px 0px 0px 4px;
 }
 
 .main-title {
     position: relative;
-    padding: 80px 0 0;
-}
-
-img {
-    padding-bottom: 10px;
+    padding: 22px;
 }
 
 .featured-content {
-    padding: 30px 0 70px;
+    padding-top: 30px;
+    height: 280px;
 }
 
+.featured-header {
+    padding-top: 8px;
+}
+
+.featured-text {
+    padding-top: 2px;
+}
+
+.featured-text-btn {
+    height: 50px;
+}
+
+.featured-more-btn {
+    padding-right: 25px;
+}
 .human-photo {
     float: left;
-    padding-right: 20px;
+    padding-right: 28px;
+}
+
+.human-title {
     position: absolute;
+    top: auto;
 }
 
-.photo2 {
-    margin-left: -22px;
-}
-
-.photo4 {
-    margin-left: -24px;
-}
-
-.photo1 {
-    margin-left: -16px;
-}
-
-.people-text {
-    padding-left: 120px;
+.human-text {
+    position: absolute;
+    bottom: 0;
 }
 
 .row-container {
+    position: relative;
     padding-top: 20px;
 }
 
+.last-row {
+    padding-top: 32px;
+}
+
 .footer {
-    height: 500px;
+    padding-top: 30px;
+    height: 528px;
     background: url(../images/footer/v.png) no-repeat;
 }
 
 .rows {
+    padding-top: 84px;
     height: 300px;
+    padding-bottom: 10px;
 }
 
 .subscribe-letter {
-    padding-left: 10px;
+    padding-left: 12px;
     position: absolute;
 }
 
 .via-email {
     position: relative;
-    padding-left: 10px;
+    padding-left: 12px;
 }
 
 .footer-row {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 .sign-up {
@@ -139,66 +180,73 @@ img {
 }
 
 .subscribe-row {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .twitter-row {
     background: url(../images/footer/twitter/img-bg2.png) no-repeat;
-    padding: 20px 20px 28px;
+    padding: 16px 28px 22px;
+}
+
+.twitter-text {
+    padding-left: 23px;
 }
 
 .social {
     background: url(../images/footer/social/bg.png) no-repeat;
     position: absolute;
     width: 100%;
-    margin-top: 170px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 192px;
+    padding-top: 33px;
+    padding-bottom: 37px;
 }
 
 .round {
+    padding: 20px;
     background: url(../images/footer/social/Shape-3.jpg) no-repeat;
+}
 
+.folious {
+    padding-top: 32px;
+    padding-bottom: 36px;
 }
 
 .follow {
-    padding-left: 10px;
+    padding-left: 14px;
     position: absolute;
     padding-top: 20px;
 }
 
 .faucibus {
     position: relative;
-    padding-left: 10px;
-    padding-bottom: 25px;
-}
-
-.fb {
-    padding: 20px 28px;
-}
-
-.ggl {
-    padding: 24px;
-}
-
-.ln {
-    padding: 22px;
+    padding-left: 14px;
+    padding-bottom: 18px;
 }
 
 .footer-text {
-    padding-top: 170px;
+    padding-top: 218px;
+    padding-left: 13px;
 }
 
 .more-btn {
     background: url(../images/featured-content/item1/btn.png) no-repeat;
-    padding-top: 10px;
+    padding: 11px 20px 11px 16px;
+}
+
+.portfolio {
+    padding-top: 30px;
 }
 
 .portfolio-title {
-    padding: 30px 0;
+    padding: 90px 240px 10px;
 }
 
-.view-portfolio-btn {
+.portfolio-content {
+    padding-top: 0px;
+    padding-right: 112px;
+}
+
+.view-portfolio-img {
     background: url(../images/portfolio/content/btn2.png) no-repeat;
-    padding-top: 12px
+    padding: 16px;
 }
