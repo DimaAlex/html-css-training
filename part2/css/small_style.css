@@ -1,0 +1,326 @@
+
+@media screen and (max-width: 767px) {
+    .header {
+        height: 62px;
+    }
+
+    header {
+        background: none;
+    }
+
+    header div {
+        height: inherit;
+    }
+    .logo {
+        width: 29%;
+        display: inline-block;
+        background: url(../images/mobile/menu/Layer-26.png) no-repeat;
+        background-size: cover;
+    }
+
+    .logo-image {
+        width: 22%;
+        margin: 10px;
+        background: url(../images/desktop/banner+header/logo/Shape-8-copy-4.png) no-repeat;
+        background-size: 100% auto;
+    }
+
+    .menu {
+        position: absolute;
+        width: 71%;
+        display: inline-block;
+        background: url(../images/mobile/menu/Rectangle-2-copy.png);
+        background-size: cover;
+    }
+
+    .menu-nav {
+        background: none;
+        margin: 0;
+    }
+
+    .menu-item-image {
+        width: 20%;
+    }
+
+    .menu-separator {
+        height: inherit;
+        padding-top: 0;
+    }
+
+    .logo a {
+        display: inline-block;
+    }
+
+    .logo-addition {
+        display: none;
+    }
+
+    .logo-text {
+        width: 59%;
+        margin-left: -6px;
+        padding-bottom: 15px;
+    }
+
+    .player {
+        margin: 0;
+        width: 100%;
+        padding-top: 52%;
+        background: url(../images/mobile/player/Layer-17.png) no-repeat;
+        background-size: 100% auto;
+    }
+
+    .center-play-button {
+        top: 40%;
+        left: 46%;
+    }
+
+    .banner-text {
+        display: none;
+    }
+
+    .bottom-play-button {
+        bottom: 7%;
+        left: 13%;
+    }
+
+    .play-progress {
+        bottom: 10%;
+        left: 21%;
+        width: 63%;
+        height: 4%;
+    }
+
+    .player-volume {
+        bottom: 10%;
+        right: 9%;
+        width: 2.5%;
+    }
+
+    .menu-li-item span {
+        color: #9B7D08;
+        font-size: 3vw;
+    }
+
+    .menu-li-item {
+        width: 32%;
+    }
+
+    .icon-area {
+        position: relative;
+        margin-top: -16px;
+        background: url(../images/mobile/mid_bar/Layer-27-copy.png), url(../images/mobile/mid_bar/Layer-27.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0 5px,0 0;
+        background-size: 100% 97%;
+    }
+
+    .icon-area img {
+        width: 47%;
+        height: auto;
+        padding: 32px 0 0 0;
+        display: block;
+        margin: auto;
+    }
+    .icon-area p {
+        margin-top: 14px;
+        font-size: 3.5vw;
+        padding-right: 0;
+    }
+
+    .section1 {
+        margin-top: 16px;
+        background: none;
+    }
+
+    .section1-title {
+        display: none;
+    }
+
+    .block {
+        width: 47%;
+        padding-bottom: 36%;
+        margin-left: 8px;
+    }
+
+    .block p {
+        margin: 0;
+        padding: 22px 22px 0 22px;
+        color: #fff;
+        font-size: 4vw;
+    }
+
+    .small-player {
+        float: right;
+        width: 48%;
+        padding-bottom: 36%;
+        margin-right: 8px;
+        background-size: auto 100%;
+    }
+
+    .twitter {
+        height: 0;
+        width: 100%;
+        margin: 10px 0 0 0;
+        padding-bottom: 36.5%;
+        background: url(../images/mobile/twitter/twitter.png), url(../images/mobile/twitter/Layer-22-copy-3.png);
+        background-repeat: no-repeat, repeat;
+        background-position: center center, left top;
+    }
+
+    .tweets {
+        display: initial;
+        width: 50%;
+        float: right;
+    }
+
+    .twitter-plus {
+        display: none;
+    }
+
+    .tweet-number {
+        display: none;
+    }
+
+    .section1-slide {
+        display: none;
+    }
+
+    .tweets-bubble {
+        list-style:none;
+        padding-left:0;
+        padding-right: 10%;
+        margin-top: 7%;
+    }
+
+    .tweets-bubble p {
+        font-family: Arial;
+        font-size: 2.0vw;
+        color: #8F8E8E;
+        padding: 5px 15px 12px 34px;
+    }
+
+    .tweets-bubble li {
+        background: url(../images/mobile/twitter/twit_bubble/Rounded-Rectangle-2.png) no-repeat;
+        background-size: 100% auto;
+        margin: 0 0 -4px 0;
+    }
+
+    .tweet-2 {
+        opacity: 0.8;
+    }
+
+    .tweet-3 {
+        opacity: 0.6;
+    }
+
+    .tweets-textfield {
+        height: 31px;
+        padding: 0 10% 0% 5%;
+        display: table;
+    }
+
+    .tweet-input {
+        display: table-cell;
+        width: 100%;
+    }
+
+    .tweet-button {
+        display: table-cell;
+    }
+
+
+    .tweet-input input {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        border-radius: 10px 0 0 10px;
+        border: 1px solid #D0A806;
+        border-right: none;
+        box-shadow: inset 1px 4px 12px -6px;
+    }
+
+    .tweet-button button {
+        background: #E8A624;
+        color: #fff;
+        border-radius: 0 10px 10px 0;
+        border: 1px solid #D0A806;
+        border-left: none;
+        height: 31px;
+    }
+
+    .section2 {
+        height: 0;
+        padding-bottom: 74%;
+        margin-top: -1%;
+        background: url(../images/mobile/sec2/Layer-33.png);
+    }
+
+    .section2-title {
+        margin: 0;
+        font-size: 6vw;
+        text-align: center;
+        color: #F5C506;
+        padding-top: 5%;
+    }
+
+    .itsfree-label {
+        left: 4%;
+        width: 18%;
+        padding-top: 7%;
+    }
+
+    .itsfree-label-text {
+        font-size: 2.2vw;
+        padding-top: 12%;
+        left: 5%;
+    }
+
+    .monitor {
+        padding: 13% 0 0 8%;
+        width: 50%;
+    }
+
+    .tablet {
+        padding: 6% 4%;
+        width: 21%;
+    }
+
+    .mobile {
+        width: 6%;
+        padding: 0 0 6% 0;
+    }
+
+    .section2-list {
+        display: none;
+    }
+
+    .footer {
+        background: #4C4C4C;
+        text-align: center;
+        text-shadow: 0px 3px 0px #303030;
+        height: 40px;
+    }
+
+    .footer * {
+        margin: 10px;
+    }
+
+    .footer-logo-image {
+        display: inline;
+        width: 32px;
+        position: relative;
+        margin: 0;
+        background: url(../images/desktop/banner+header/logo/Shape-8-copy-4.png) no-repeat;
+        background-size: 100% auto;
+    }
+
+    .footer-logo-text {
+        font-size: 16px;
+        width: 100px;
+        display: inline-block;
+        overflow: hidden;
+        font-family: 'Lucida Sans';
+        font-style: italic;
+        color: #fff;
+    }
+}
