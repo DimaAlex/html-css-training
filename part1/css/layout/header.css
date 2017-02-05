@@ -1,0 +1,20 @@
+.header {
+  height: 90px;
+}
+
+.header__site-name {
+  padding-top: 35px;
+}
+
+.header__menu {
+  margin-left: 20px;
+}
+
+.header__menu-pointer {
+  padding-top: 18px;
+  padding-left: 14px;
+}
+
+.header__menu-items {
+  padding-top: 12px;
+}

@@ -1,0 +1,49 @@
+.footer {
+  background: #4C4C4C;
+  text-align: center;
+  text-shadow: 0px 3px 0px #303030;
+  height: 67px;
+}
+
+.footer:before {
+  display: block;
+  width: 100%;
+  content: '';
+  background: linear-gradient(to top, #000, #474747);
+  height: 7px;
+}
+
+.footer__logo-image {
+  display: inline;
+  width: 54px;
+  position: relative;
+  margin: 0;
+  background: url(../../images/desktop/banner+header/logo/Shape-8-copy-4.png) no-repeat;
+  background-size: 100% auto;
+}
+
+.footer__logo-text {
+  font-size: 2.4vw;
+  width: 204px;
+  margin: 10px;
+  display: inline-block;
+  overflow: hidden;
+  font-family: 'Lucida Sans';
+  font-style: italic;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    height: 40px;
+  }
+
+  .footer__logo-image {
+    width: 32px;
+  }
+
+  .footer__logo-text {
+    font-size: 16px;
+    width: 100px;
+  }
+}

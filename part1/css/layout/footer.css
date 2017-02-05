@@ -1,0 +1,73 @@
+
+.footer {
+  padding-top: 30px;
+  height: 528px;
+  background: url(../../images/footer/v.png) no-repeat;
+}
+
+.footer__row {
+  padding-top: 40px;
+}
+
+.footer__subscribe {
+  padding-bottom: 25px;
+}
+
+.footer__subscribe-letter {
+  padding-left: 12px;
+  position: absolute;
+}
+
+.footer__subscribe-email {
+  position: relative;
+  padding-left: 12px;
+}
+
+.footer__row-sign-up {
+  padding: 12px 20px;
+  background: url(../../images/footer/subscribe/btn.png) no-repeat;
+  position: absolute;
+}
+
+.footer__row-link {
+  padding-right: 5px;
+}
+
+.footer__twitter {
+  background: url(../../images/footer/twitter/img-bg2.png) no-repeat;
+  padding: 16px 28px 22px;
+}
+
+.footer__twitter-text {
+  padding-left: 23px;
+}
+
+.footer__social {
+  background: url(../../images/footer/social/bg.png) no-repeat;
+  position: absolute;
+  width: 100%;
+  margin-top: 192px;
+  padding-top: 33px;
+  padding-bottom: 37px;
+}
+
+.footer__round {
+  padding: 20px;
+  background: url(../../images/footer/social/Shape-3.jpg) no-repeat;
+}
+
+.footer__follow {
+  padding-left: 14px;
+  position: absolute;
+  padding-top: 20px;
+}
+
+.footer__faucibus {
+  position: relative;
+  padding-left: 14px;
+  padding-bottom: 18px;
+}
+
+.footer__text {
+  padding: 218px 0 0 13px !important;
+}

@@ -1,0 +1,28 @@
+.featured-content {
+  padding-top: 30px;
+  height: 280px;
+}
+
+.featured-content__item {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 10px;
+}
+
+.featured-content__item-header {
+  padding-top: 8px;
+}
+
+.featured-content__item-text {
+  padding-top: 2px;
+}
+
+.featured-content__item-more-btn {
+  padding-right: 25px;
+}
+
+.featured-content__item-more-btn-link {
+  background: url(../../images/featured-content/item1/btn.png) no-repeat;
+  padding: 11px 20px 11px 16px !important;
+}

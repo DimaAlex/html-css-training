@@ -1,0 +1,20 @@
+
+.banner {
+  height: 520px;
+  position: relative;
+  background: url(../../images/banner/wallpaperwide.png) no-repeat;
+  background-size: 100% auto;
+}
+
+.banner__main-text {
+  padding-bottom: 14px;
+  padding-right: 30px;
+}
+
+.banner__add-text {
+  padding-right: 28px;
+}
+
+.banner__title {
+  padding: 106px 0px 0px 4px;
+}

@@ -1,0 +1,90 @@
+.devices {
+  width: 100%;
+  background: url(../../images/desktop/section2/Layer-32.png);
+  height: 0;
+  padding-bottom: 37%;
+}
+
+.devices__title {
+  font-family: "PTSans Regular";
+  color: #F5C506;
+  font-size: 3vw;
+  margin: 2% 0 0 19%;
+}
+
+
+.devices__itsfree-image {
+  position: absolute;
+  left: 10%;
+  width: 9%;
+}
+
+.devices__itsfree-text {
+  font-family: 'PTSans Narrow';
+  font-weight: bold;
+  font-size: 1.4vw;
+  position: absolute;
+  padding-top: 2%;
+  left: 10.5%;
+  color: #fff;
+}
+
+.devices__images-monitor {
+  padding: 4% 0 0 2%;
+  width: 29%;
+}
+
+.devices__images-tablet {
+  padding: 0 0 3% 2%;
+  width: 12%;
+}
+
+.devices__images-mobile {
+  width: 4%;
+  padding: 0 0 3% 1%;
+}
+
+@media screen and (max-width: 767px) {
+
+  .devices {
+    height: 0;
+    padding-bottom: 74%;
+    margin-top: -1%;
+    background: url(../../images/mobile/sec2/Layer-33.png);
+  }
+
+  .devices__title {
+    margin: 0;
+    font-size: 6vw;
+    text-align: center;
+    color: #F5C506;
+    padding-top: 5%;
+  }
+
+  .devices__itsfree-image {
+    left: 4%;
+    width: 18%;
+    padding-top: 7%;
+  }
+
+  .devices__itsfree-text {
+    font-size: 2.2vw;
+    padding-top: 12%;
+    left: 5%;
+  }
+
+  .devices__images-monitor {
+    padding: 13% 0 0 8%;
+    width: 50%;
+  }
+
+  .devices__images-tablet {
+    padding: 6% 4%;
+    width: 21%;
+  }
+
+  .devices__images-mobile {
+    width: 6%;
+    padding: 0 0 6% 0;
+  }
+}

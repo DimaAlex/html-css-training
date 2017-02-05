@@ -1,0 +1,45 @@
+.logo__image {
+  width: 15%;
+  background: url(../../images/desktop/banner+header/logo/Shape-8-copy-4.png) no-repeat;
+  background-size: 100% auto;
+}
+
+.logo__text {
+  width: 42%;
+  margin-bottom: 7px;
+}
+
+.logo__addition {
+  width: 32%;
+  margin-bottom: 9px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 29% !important;
+    display: inline-block;
+    background: url(../../images/mobile/menu/Layer-26.png) no-repeat;
+    background-size: cover;
+  }
+
+  .logo__link {
+    display: inline-block;
+  }
+
+  .logo__image {
+    width: 22%;
+    margin: 10px;
+    background: url(../../images/desktop/banner+header/logo/Shape-8-copy-4.png) no-repeat;
+    background-size: 100% auto;
+  }
+
+  .logo__addition {
+    display: none;
+  }
+
+  .logo__text {
+    width: 59%;
+    margin-left: -6px;
+    padding-bottom: 15px;
+  }
+}

@@ -1,0 +1,40 @@
+input[type=range] {
+  -webkit-appearance: none;
+  width: 87%;
+  height: 15px;
+  background: #fff;
+  opacity: 0.6;
+  border-radius: 12px;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 20%;
+  background: #EC9E03;
+  border-radius: 6px;
+}
+@media screen and (max-width: 767px) {
+  .tweets__input input {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #D0A806;
+    border-right: none;
+    box-shadow: inset 1px 4px 12px -6px;
+  }
+
+  .tweets__button button {
+    background: #E8A624;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #D0A806;
+    border-left: none;
+    height: 31px;
+  }
+}

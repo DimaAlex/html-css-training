@@ -1,0 +1,20 @@
+@font-face {
+  font-family: asapRegular;
+  src: url(../../../fonts/Asap-Regular.ttf);
+}
+
+@font-face {
+  font-family: PTSans Regular;
+  src: url(../../../fonts/PTS55F.ttf);
+}
+
+@font-face {
+  font-family: PTSans Narrow;
+  src: url(../../../fonts/PTSansNarrowBold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(../../../fonts/OpenSans-Regular.ttf);
+}

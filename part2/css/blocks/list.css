@@ -1,0 +1,19 @@
+.list {
+  display: inline;
+  padding: 4.5% 0 0% 7%;
+  position: absolute;
+  color: #A9A9A9;
+  list-style-image: url(../../images/desktop/section2/Ellipse-4.png);
+}
+
+.list-item {
+  font-family: 'Open Sans';
+  padding: 1.5% 3%;
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 767px) {
+  .list {
+    display: none;
+  }
+}

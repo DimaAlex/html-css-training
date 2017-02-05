@@ -1,0 +1,29 @@
+.rows {
+  padding-top: 84px;
+  height: 300px;
+  padding-bottom: 10px;
+}
+
+.rows__container {
+  position: relative;
+  padding-top: 20px;
+}
+
+.rows__container-last {
+  padding-top: 32px;
+}
+
+.rows__human-photo {
+  float: left;
+  padding-right: 28px;
+}
+
+.rows__human-title {
+  position: absolute;
+  top: auto;
+}
+
+.rows__human-text {
+  position: absolute;
+  bottom: 0;
+}

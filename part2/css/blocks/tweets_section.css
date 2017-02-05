@@ -1,0 +1,29 @@
+.twits-section {
+  background: url(../../images/desktop/Layer-10-copy-3.png);
+}
+
+.twits-section__title {
+  color: #fff;
+  margin-top: 2%;
+  font-family: 'PTSans Regular';
+  font-size: 2.5vw;
+}
+
+.twits-section__slide {
+  margin: 11% 0 2% 7%;
+}
+
+@media screen and (max-width: 767px) {
+  .twits-section {
+    margin-top: 16px;
+    background: none;
+  }
+
+  .twits-section__title {
+    display: none;
+  }
+
+  .twits-section__slide {
+    display: none;
+  }
+}

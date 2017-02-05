@@ -1,0 +1,21 @@
+header {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: url(../../images/desktop/Layer-20.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    height: 62px;
+  }
+
+  header {
+    background: none;
+  }
+
+  header div {
+    height: inherit;
+  }
+}

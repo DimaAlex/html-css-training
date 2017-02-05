@@ -1,0 +1,13 @@
+.circle-play-button {
+  display: block;
+  background: url(../../../images/desktop/banner+header/player/Ellipse-2.png) no-repeat;
+  background-size: auto;
+  padding: 16px 21px 20px 28px;
+}
+
+.square-play-button {
+  width: 35%;
+  background: url(../../../images/desktop/banner+header/player/Layer-16.png) no-repeat;
+  background-size: auto;
+  padding: 5px 9px;
+}

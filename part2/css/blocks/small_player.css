@@ -1,0 +1,27 @@
+.small-player {
+  display: inline-block;
+  overflow: hidden;
+  height: 0;
+  width: 30%;
+  padding-bottom: 21%;
+  margin-left: 0.5%;
+  margin-left: -1%;
+  background: url(../../images/mobile/sec1/player_sml/Layer-29.png) no-repeat;
+}
+
+.small-player__play-button {
+  display: inline-block;
+  position: relative;
+  left: 38%;
+  margin-top: 28%;
+}
+
+@media screen and (max-width: 767px) {
+  .small-player {
+    float: right;
+    width: 48%;
+    padding-bottom: 36%;
+    margin-right: 8px;
+    background-size: auto 100%;
+  }
+}

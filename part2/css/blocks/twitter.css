@@ -1,0 +1,99 @@
+.twitter {
+  display: inline-block;
+  height: 0;
+  width: 29%;
+  padding-bottom: 21%;
+  margin-left: 2%;
+  background: url(../../images/mobile/twitter/twitter.png) no-repeat;
+  background-position: center center;
+  background-color: #EC9E03;
+  overflow: hidden;
+}
+
+.tweets {
+  display: none;
+}
+
+.twitter__number {
+  color: #fff;
+  float: right;
+  margin: 4%;
+  font-size: 2vw;
+}
+
+.twitter__plus {
+  margin-top: 64%;
+}
+
+@media screen and (max-width: 767px) {
+  .twitter {
+    height: 0;
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding-bottom: 36.5%;
+    background: url(../../images/mobile/twitter/twitter.png), url(../../images/mobile/twitter/Layer-22-copy-3.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center center, left top;
+  }
+
+  .tweets {
+    display: initial;
+    width: 50%;
+    float: right;
+  }
+
+  .twitter__plus {
+    display: none;
+  }
+
+  .twitter__number {
+    display: none;
+  }
+
+  .section1-slide {
+    display: none;
+  }
+
+  .tweets__bubble {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 10%;
+    margin-top: 7%;
+  }
+
+  .tweets__text {
+    font-family: Arial;
+    font-size: 2.0vw;
+    color: #8F8E8E;
+    padding: 5px 15px 12px 34px;
+  }
+
+  .tweets__item {
+    background: url(../../images/mobile/twitter/twit_bubble/Rounded-Rectangle-2.png) no-repeat;
+    background-size: 100% auto;
+    margin: 0 0 -4px 0;
+  }
+
+  .tweets__item-lighter {
+    opacity: 0.8;
+  }
+
+  .tweets__item-lightest {
+    opacity: 0.6;
+  }
+
+  .tweets__textfield {
+    height: 31px;
+    padding: 0 10% 0% 5%;
+    display: table;
+  }
+
+  .tweets__input {
+    display: table-cell;
+    width: 100%;
+  }
+
+  .tweets__button {
+    display: table-cell;
+  }
+}

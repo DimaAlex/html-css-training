@@ -1,0 +1,70 @@
+.player {
+  width: 50%;
+  height: 0;
+  position: relative;
+  padding-top: 32%;
+  margin: 4% 0;
+  background: url(../../images/mobile/player/Layer-17.png) no-repeat;
+}
+
+.player__button-center {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+
+.player__button-bottom {
+  position: absolute;
+  bottom: 14%;
+  left: 7%;
+}
+
+.player__progress {
+  position: absolute;
+  bottom: 17%;
+  left: 16%;
+  width: 74%;
+  background:  url(../../images/desktop/banner+header/player/Layer-14.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.player__volume {
+  position: absolute;
+  bottom: 16%;
+  right: 3%;
+  width: 3%;
+}
+
+@media screen and (max-width: 767px) {
+  .player {
+    margin: 0;
+    width: 100% !important;
+    padding-top: 52%;
+    background: url(../../images/mobile/player/Layer-17.png) no-repeat;
+    background-size: 100% auto;
+  }
+
+  .player__button-center {
+    top: 40%;
+    left: 46%;
+  }
+
+  .player__button-bottom {
+    bottom: 7%;
+    left: 13%;
+  }
+
+  .play__progress {
+    bottom: 10%;
+    left: 21%;
+    width: 63%;
+    height: 4%;
+  }
+
+  .player__volume {
+    bottom: 10%;
+    right: 9%;
+    width: 2.5%;
+  }
+}

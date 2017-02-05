@@ -1,0 +1,59 @@
+.icon-area {
+  background: url(../../images/desktop/icon_area/Layer-7.png);
+  background-size: contain;
+}
+
+.icon-area__image-design {
+  padding: 9% 33% 0;
+  width: 31%;
+}
+
+.icon-area__image-customize {
+  width: 36%;
+  padding: 3% 27% 2%;
+}
+
+.icon-area__image-free {
+  width: 31%;
+  padding: 8% 14% 1%;
+}
+
+.icon-area__text {
+  text-align: center;
+  font-size: 2vw;
+  margin-top: 0;
+  font-family: 'Segoe ui';
+  font-weight: lighter;
+}
+
+.icon-area__text-customize {
+  padding-right: 13%;
+}
+
+.icon-area__text-free {
+  padding-right: 40%;
+}
+
+@media screen and (max-width: 767px) {
+  .icon-area {
+    position: relative;
+    margin-top: -16px;
+    background: url(../../images/mobile/mid_bar/Layer-27-copy.png), url(../../images/mobile/mid_bar/Layer-27.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 5px,0 0;
+    background-size: 100% 97%;
+  }
+
+  .icon-area__image {
+    width: 47%;
+    height: auto;
+    padding: 32px 0 0 0;
+    display: block;
+    margin: auto;
+  }
+  .icon-area__text {
+    margin-top: 14px;
+    font-size: 3.5vw;
+    padding-right: 0;
+  }
+}

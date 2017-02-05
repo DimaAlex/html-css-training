@@ -1,0 +1,76 @@
+.menu {
+  width: 100%;
+  height: inherit;
+  list-style-type: none;
+  margin: 3% 0 0 0 ;
+  padding: 0;
+  overflow: hidden;
+  background-image: url(../../images/desktop/banner+header/main_nav/Rectangle-2-copy.png), url(../../images/desktop/banner+header/main_nav/Rectangle-2-copy-2.png), url(../../images/desktop/banner+header/main_nav/Rectangle-2-copy-3.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 8px 8px, 4px 4px,0 0;
+  background-size: 98% 41px;
+}
+
+.menu li:last-child {
+  border:none;
+}
+
+.menu__item {
+  height: inherit;
+  float: left;
+  width: 33%;
+  margin-top: 1%;
+  border-right: 1px solid #B99403;
+}
+
+.menu__link {
+  display: block;
+  color: #A28308;
+  text-align: center;
+  padding: 6% 0 5% 0;
+  text-decoration: none;
+}
+
+.menu__link-image {
+  width: 14%;
+  padding-left: 5px;
+}
+
+.menu__separator {
+  height: inherit;
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .menu {
+    position: absolute;
+    width: 71% !important;
+    display: inline-block;
+    background: url(../../images/mobile/menu/Rectangle-2-copy.png);
+    background-size: cover;
+    margin: 0;
+  }
+
+  .menu__link-image {
+    width: 20%;
+  }
+
+  .menu__separator {
+    height: inherit;
+    padding-top: 0;
+  }
+
+  .menu__item {
+    width: 32%;
+    margin-top: 0;
+  }
+
+  .menu__link {
+    margin-top: 1%;
+  }
+
+  .menu__item-text {
+    color: #9B7D08;
+    font-size: 3vw;
+  }
+}
